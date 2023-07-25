@@ -1,0 +1,1160 @@
+/* ================ Defaults ======================== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+i {
+    color: orange;
+}
+
+/* ================= Header  ========================= */
+header {
+    position: relative;
+    z-index: 1;
+}
+
+.beforeNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+}
+
+.beforeNav div:nth-child(1) {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.beforeNav div:nth-child(2) {
+    display: flex;
+    gap: 10px;
+}
+
+.beforeNav div:nth-child(2) a {
+    color: white;
+}
+
+.beforeNav div:nth-child(2) a i {
+    padding: 0 5px;
+}
+
+.beforeNav div:nth-child(2) a:nth-child(2) {
+    border-left: 1px solid white;
+    padding: 10px;
+}
+
+
+.beforeNav div:nth-child(2) a:nth-child(1) {
+    padding: 10px;
+}
+
+/* ================== Nav ======================== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+nav>a,
+nav>a i {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    max-width: 50%;
+    align-items: center;
+}
+
+nav ul li a,
+nav select {
+    color: white;
+}
+
+nav ul li a:hover,
+nav select:hover {
+    color: orange;
+}
+
+nav ul li:last-child {
+    display: none;
+}
+
+
+select {
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    font-size: 17px;
+}
+
+nav button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+}
+
+/* ================== Main ======================= */
+
+main {
+    position: relative;
+    top: -150px;
+    width: 100%;
+}
+
+
+main div div>img {
+    width: 100%;
+    height: 500px;
+}
+
+.mainText {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    z-index: 1;
+    color: white;
+    width: 40%;
+    align-items: center;
+}
+
+.mainText p:first-child {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.mainText h1 {
+    border-left: 3px solid orange;
+    padding: 0 10px;
+}
+
+.mainText :nth-child(4) {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+}
+
+.mainText :nth-child(5) {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.mainText :nth-child(5) i {
+    font-size: 20px;
+    color: white;
+}
+
+.mainText p {
+    padding: 10px 0;
+}
+
+/* ==================== Section2 ================= */
+.section2 {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.section2a {
+    width: 40%;
+}
+
+.section2ai {
+    display: flex;
+    list-style: circle;
+}
+
+.section2aii {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.section2a hr {
+    width: 150px;
+    color: orange;
+    height: 2px;
+}
+
+.section2a p:nth-child(1),
+.section2b form p {
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 900;
+}
+
+.section2a h2,
+.section2b form h2,
+.section3 div h3 {
+    color: #013236fb;
+}
+
+.section2a p,
+.section2a h2,
+.section2ai div ul li {
+    padding: 10px;
+}
+
+.section2aii {
+    padding: 10px;
+}
+
+.section2aii div>* {
+    padding: 0 20px;
+    width: 100%;
+    border-left: 3px solid orange;
+}
+
+.section2aii>h3 {
+    font-style: oblique;
+    font-family: cursive;
+}
+
+
+.section2b {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -100px;
+    z-index: 1;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+.section2b form>* {
+    margin: 8px;
+    padding: 5px;
+}
+
+.section2b form input,
+.section2b form textarea {
+    background-color: #bdbdbd41;
+    border: none;
+    width: 100%;
+}
+
+.section2b form input:last-child {
+    width: auto;
+}
+
+.section2b form button {
+    background-color: orange;
+    border: none;
+    width: 150px;
+    padding: 10px;
+}
+
+
+/* ================ Section3 ==================== */
+.section3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.section3>div {
+    display: flex;
+    width: 25%;
+}
+
+.section3 div i {
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+/* ================= Section4 ==================== */
+
+.section4 {
+    display: flex;
+    position: relative;
+    top: 20px;
+    background-color: #013236fb;
+    width: 68%;
+    color: white;
+    padding: 100px 100px;
+}
+
+.section4 span {
+    color: orange;
+}
+
+.section4 div {
+    width: 50%;
+}
+
+.section4 div>* {
+    padding: 10px 10px 10px 0;
+}
+
+.section4 div button {
+    width: 150px;
+    background-color: orange;
+    border: none;
+    margin: 10px 0;
+}
+
+.section4 img {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+}
+
+.section4>img {
+    left: 80%;
+    top: 20%;
+}
+
+.section4 img:last-child {
+    top: 35%;
+    left: 110%;
+    height: 150px;
+    width: 300px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px 0px #8080806e;
+}
+
+/* ================= Section5 =================== */
+.section5 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.section5 p,
+.section5 h2 {
+    padding: 10px;
+}
+
+.section5 h2 {
+    color: #013236fb;
+}
+
+.section5 hr {
+    width: 100px;
+    margin: auto;
+    color: orange;
+}
+
+.section5 p:first-child {
+    color: orange;
+}
+
+/* ================== Section6 ================= */
+.section6 {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section6a,
+.section6b {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px;
+
+}
+
+.section6 div div {
+    width: 30%;
+    padding: 10px 50px;
+    margin: auto;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+
+.section6 div i {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.section6 div p {
+    padding: 10px 0;
+}
+
+.section6a div:first-child {
+    background-color: #013236fb;
+    color: white;
+}
+
+/* ==================== Section7 ===================== */
+
+.section7 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+    background-image: url(https://images.unsplash.com/photo-1583262724909-ee20fa2a9b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNuYWlsJTIwZXllJTIwdmlldyUyMGluJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1400&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section7 div {
+    padding: 50px 0px;
+    color: white;
+    font-weight: 900;
+}
+
+.section7 div>* {
+    padding: 5px;
+}
+
+.section7 p:first-child {
+    font-size: 30px;
+}
+
+/* ================ Section8 ===================== */
+
+.section8 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.section8 p,
+.section8 h2 {
+    padding: 10px;
+}
+
+.section8 h2 {
+    color: #013236fb;
+}
+
+.section8 hr {
+    width: 100px;
+    margin: auto;
+    color: orange;
+}
+
+.section8 p:first-child {
+    color: orange;
+}
+
+/* ================= Section9 =================== */
+.section9 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.section9 img {
+    width: 200px;
+    height: 250px;
+}
+
+.section9 div div {
+    width: 80%;
+    margin: auto;
+}
+
+.section9a div {
+    background-color: white;
+    position: relative;
+    top: -30px;
+    box-shadow: 0px 0px 10px 0px gray;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.section9 h3 {
+    color: #013236fb;
+}
+
+
+/* ===================== Section10 =============== */
+.section10 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.section10a {
+    background-color: #013236fb;
+    padding: 100px 50px 100px 300px;
+    text-align: right;
+    color: white;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+}
+
+.section10a * {
+    padding: 10px;
+}
+
+.section10a h2 {
+    border-bottom: 3px solid orange;
+}
+
+.section10a p:first-child {
+    text-transform: uppercase;
+    color: orange;
+}
+
+.section10b {
+    position: relative;
+    z-index: 1;
+    right: -100px;
+    background-color: white;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+.section10b div:nth-child(1) {
+    display: flex;
+    box-shadow: 1px 1px 10px 1px gray;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.section10b div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+.section10b p:first-child {
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.section10b p:last-child {
+    padding: 5px 0;
+}
+
+/* ================== Section11 =================== */
+
+.section11 {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
+.section11 h2 {
+    color: #013236fb;
+    border-bottom: 2px solid orange;
+    margin: 0 50px;
+    padding: 10px 0;
+}
+
+.section11 div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.section11 div img {
+    width: 100px;
+    height: 80px;
+}
+
+/* ================== Section12 ==================== */
+
+.section12 {
+    background-image: url(https://images.unsplash.com/photo-1682685797828-d3b2561deef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1400&q=60);
+    height: 500px;
+    position: relative;
+    top: 220px;
+    color: white;
+    text-align: center;
+}
+
+.section12 h4 {
+    color: orange;
+    padding: 50px 0 20px 0;
+}
+
+.section12 h2 {
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid orange;
+    margin: 0 50px;
+}
+
+.section12 p {
+    padding: 10px 10% 20px 10%;
+}
+
+.section12>div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    position: absolute;
+    top: 220px;
+    color: black;
+}
+
+.section12 div img {
+    width: 90%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.section12 div div div {
+    background-color: white;
+    position: relative;
+    top: -35px;
+    margin: 5%;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 0 0 5px 5px;
+}
+
+.section12 div h3 {
+    padding-top: 20px;
+}
+
+.section12 div button {
+    border: none;
+    background-color: white;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.section12 div button i {
+    margin: 0 5px;
+}
+
+/* ================== Section13 ================== */
+.section13 {
+    position: relative;
+    top: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section13 div {
+    width: 40%;
+}
+
+.section13 h4 {
+    color: orange;
+    padding: 10px 0;
+}
+
+.section13 h2 {
+    color: #013236fb;
+    border-bottom: 2px solid orange;
+    margin: 0 50px;
+    padding: 10px 0;
+}
+
+.section13 p {
+    padding: 20px 0;
+}
+
+.section13 button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+
+.section13 button:first-child {
+    background-color: #013236fb;
+    color: white;
+}
+
+/* ================= Section14 =================== */
+
+.section14 {
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+
+.section14 img {
+    height: 350px;
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.section14 div {
+    position: relative;
+    top: -220px;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.section14 h2:nth-child(2) {
+    color: orange;
+}
+
+.section14 button {
+    background-color: orange;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* ================== Section15 ================== */
+
+.section15 {
+    position: relative;
+    top: 350px;
+    color: black;
+    text-align: center;
+
+}
+
+.section15 h4 {
+    color: orange;
+    padding: 50px 0 20px 0;
+}
+
+.section15 h2 {
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid orange;
+    margin: 0 50px;
+}
+
+.section15 p {
+    padding: 10px 10% 20px 10%;
+}
+
+.section15>div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    position: absolute;
+    top: 220px;
+    color: black;
+}
+
+.section15 div img {
+    width: 90%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.section15 div div div {
+    background-color: white;
+    position: relative;
+    top: -35px;
+    margin: 5%;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 0 0 5px 5px;
+}
+
+.section15 div h3 {
+    padding-top: 20px;
+}
+
+.section15 div button {
+    border: none;
+    background-color: white;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.section15 div button i {
+    margin: 0 5px;
+}
+
+
+/* ================= Footer ==================== */
+
+
+footer {
+    position: relative;
+    top: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #013236fb;
+    color: white;
+}
+
+footer div {
+    width: 20%;
+    padding: 30px 0;
+}
+
+footer h4 {
+    color: orange;
+}
+
+footer div:nth-of-type(1) a {
+    padding: 0 5px 0 0;
+    font-size: 20px;
+}
+
+footer div:nth-of-type(1) p,
+footer div:nth-of-type(1) h1 {
+    padding: 10px 0;
+}
+
+footer div:nth-of-type(2) li,
+footer div:nth-of-type(3) li {
+    padding: 10px 0;
+}
+
+footer div:nth-of-type(4) li {
+    padding: 15px 0;
+}
+
+footer div:nth-of-type(2) i,
+footer div:nth-of-type(3) i,
+footer div:nth-of-type(4) i {
+    padding: 0 10px 0 0;
+}
+
+
+
+
+/* ================== Mobile ==================== */
+@media(max-width: 1000px) {
+
+    .beforeNav i {
+        font-size: 15px;
+    }
+
+    .beforeNav {
+        flex-direction: column;
+        gap: 0;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .beforeNav div:nth-child(2) {
+        padding: 5px;
+    }
+
+    .beforeNav div:nth-child(2) a:nth-child(2),
+    .beforeNav div:nth-child(2) a:nth-child(1) {
+        border-left: none;
+        padding: 0;
+    }
+
+    nav ul li:not(:nth-of-type(1)) {
+        display: none;
+    }
+
+    nav ul li:last-child {
+        display: block;
+
+    }
+
+    nav ul {
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    nav select,
+    nav button {
+        display: none;
+    }
+
+    nav>a {
+        display: none;
+    }
+
+    /* =================== Main =================== */
+
+    .mainText {
+        top: 1.5%;
+        left: 10%;
+        width: 80%;
+    }
+
+    /* =============== Section2 ==================== */
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section2 div {
+        width: 90%;
+    }
+
+    .section2b {
+        top: 20px;
+    }
+
+    /* ==================== Section3 ================ */
+    .section3 {
+        flex-direction: column;
+        position: relative;
+        top: 50px;
+    }
+
+    .section3>div {
+        width: 90%;
+        padding: 10px;
+    }
+
+    /* =================== Section4 ================= */
+    .section4 {
+        top: 50px;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding: 50px 50px;
+    }
+
+    .section4 div {
+        width: 100%;
+    }
+
+    .section4 img {
+        position: relative;
+        left: 0;
+        top: 20px;
+        height: 5%;
+        width: 100%;
+    }
+
+    .section4 img:last-child {
+        display: none;
+    }
+
+    /* ================ Section5 =================== */
+    .section5 {
+        top: 60px;
+    }
+
+    /* ================ Section6 ==================== */
+    .section6 div p {
+        font-size: 10px;
+    }
+
+    .section6 div h1 {
+        font-size: 15px;
+    }
+
+    .section6a,
+    .section6b {
+        flex-direction: column;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .section6 div div {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    /* ===================== Section7 ===================== */
+    .section7 {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .section7 div {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section7 div>* {
+        padding: 2px;
+    }
+
+    .section7 p:first-child {
+        font-size: 20px;
+    }
+
+    /* ================= Section9 ================= */
+
+    .section9 {
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+    }
+
+    /* ================= Section10 =================== */
+    .section10 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 150px;
+        gap: 20px;
+    }
+
+    .section10a {
+        padding: 50px 20px 50px 20px;
+        text-align: center;
+        color: white;
+        width: 90%;
+    }
+
+    .section10b {
+        right: 0px;
+        background-color: white;
+        padding: 40px 20px;
+        width: 90%;
+    }
+
+    /* ================== Section11 =================== */
+
+    .section11 {
+        box-shadow: 0 0 5px 0 gray;
+        width: 90%;
+        margin: auto;
+    }
+
+    .section11 div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .section11 h2 {
+        padding-top: 20px;
+    }
+
+    .section11 div img {
+        width: 100px;
+        height: 80px;
+        margin: 10px 0;
+    }
+
+    /* ================= Section12 ====================== */
+
+    .section12 {
+        height: auto;
+        margin: 0 20px;
+        position: relative;
+        top: 220px;
+        color: white;
+        text-align: center;
+    }
+
+    .section12>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        position: relative;
+        top: 0px;
+    }
+
+    .section12 div div div {
+        background-color: white;
+        position: relative;
+        top: -40px;
+        margin: 5%;
+        box-shadow: 0 0 5px 0 grey;
+        border-radius: 0 0 5px 5px;
+    }
+
+    /* =============== Section13 =================== */
+
+    .section13 {
+        top: 250px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section13 div {
+        width: 90%;
+        padding: 5px;
+    }
+
+    /* =============== Section14 =================== */
+
+    .section14 {
+        position: relative;
+        top: 280px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .section14 img {
+        width: 100%;
+        filter: brightness(40%);
+    }
+
+    .section14 div {
+        position: relative;
+        top: -280px;
+        color: white;
+        width: 90%;
+        margin: auto;
+    }
+
+    /* =================== Section15 =============== */
+
+    .section15 {
+        top: 100px;
+    }
+
+    .section15>div {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        position: relative;
+        top: 0px;
+    }
+
+    .section15 div div div {
+        background-color: white;
+        position: relative;
+        top: -40px;
+        margin: 5%;
+        box-shadow: 0 0 5px 0 grey;
+        border-radius: 0 0 5px 5px;
+    }
+
+    /* ==================== Footer ================ */
+
+    footer {
+        position: relative;
+        top: -80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #013236fb;
+        color: white;
+        text-align: center;
+    }
+
+    footer div {
+        width: 80%;
+        padding: 20px 0;
+    }
+}
